@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="theme-color" content="#441752">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/letter-p.png" type="image/x-icon">
+
+    <!-- Linking Google Fonts for Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,200,0,0" />
+
+    <!-- Linking Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+
+    <!-- Linking Swiper Script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Percepta Innovation</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+   
+
+    <main class="main">
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <picture>
+                        <source srcset="./assets/img/1-removebg-preview.png" media="(max-width: 765px)">
+                        <img class="logo-img"  src="./assets/img/1-object-white-inverted-removebg-preview (1).png" style="width: 20px; height: 20px;" alt="Percepta Logo">
+                    </picture>
+                    Percepta
+                </a>
+    
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">FAQs</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contact Us</a>
+                        </li>
+                    </ul>
+    
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+    
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <!-- <i class="ri-moon-line change-theme" id="theme-button"></i> -->
+    
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--==================== HOME ====================-->
+        <!-- <section class="home" id="home">
+            <div class="home__container container grid">
+                <img src="assets/img/home-img.png" alt="" class="home__img">
+
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Lorem ipsum<br> amet consectetur
+                    </h1>
+                    <p class="home__description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Curabitur vitae elit nec quam vehicula aliquet.
+                    </p>
+                    <a href="#about" class="button button--flex">
+                        Discover <i class="ri-arrow-right-down-line button__icon"></i>
+                    </a>
+                </div>
+
+
+                <div class="home__social">
+                    <span class="home__social-follow">Follow Us</span>
+
+                    <div class="home__social-links">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section class="questions section" id="home" style="padding-top: 0; background-color: transparent">
+            <div class="slider-container">
+                <!-- Slider List Items -->
+                <div class="slider-wrapper swiper-wrapper">
+                    <!-- Industrial Automation Slide -->
+                    <div class="slider-item swiper-slide">
+                        <div class="slide-content">
+                            <div id="blur">
+                                <h3 class="slide-subtitle">Industrial Automation</h3>
+                                <h2 class="slide-title">Optimizing Industries with Automation</h2>
+                                <p class="slide-description">
+                                    Explore advancements in industrial robotics, PLC systems, and smart factory solutions that drive efficiency and innovation.
+                                </p>
+                                <a href="#" class="slide-button"><span>Learn More</span></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Defence Automation Slide -->
+                    <div class="slider-item swiper-slide">
+                        <div class="slide-content">
+                            <div id="blur">
+                                <h3 class="slide-subtitle">Defence Automation</h3>
+                                <h2 class="slide-title">Enhancing Security with Advanced Automation</h2>
+                                <p class="slide-description">
+                                    Discover cutting-edge automation solutions in defense systems, unmanned vehicles, and surveillance technologies.
+                                </p>
+                                <a href="#" class="slide-button"><span>Learn More</span></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Home Automation Slide -->
+                    <div class="slider-item swiper-slide">
+                        <div class="slide-content">
+                            <div id="blur">
+                                <h3 class="slide-subtitle">Home Automation</h3>
+                                <h2 class="slide-title">Transforming Homes with Smart Technologies</h2>
+                                <p class="slide-description">
+                                    Learn about IoT-enabled devices, energy management systems, and smart home solutions that simplify daily life.
+                                </p>
+                                <a href="#" class="slide-button"><span>Learn More</span></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Robotics Slide -->
+                    <div class="slider-item swiper-slide">
+                        <div class="slide-content">
+                            <div id="blur">
+                                <h3 class="slide-subtitle">Robotics</h3>
+                                <h2 class="slide-title">Innovating with Advanced Robotics</h2>
+                                <p class="slide-description">
+                                    Dive into robotics applications, from humanoid robots to automation in manufacturing and healthcare.
+                                </p>
+                                <a href="#" class="slide-button"><span>Learn More</span></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Logistics and Warehouse Slide -->
+                    <div class="slider-item swiper-slide">
+                        <div class="slide-content">
+                            <div id="blur">
+                                <h3 class="slide-subtitle">Logistics and Warehouse</h3>
+                                <h2 class="slide-title">Revolutionizing Supply Chains</h2>
+                                <p class="slide-description">
+                                    Explore automation in logistics, warehouse robotics, and real-time inventory management systems that streamline operations.
+                                </p>
+                                <a href="#" class="slide-button"><span>Learn More</span></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Research Slide -->
+                    <div class="slider-item swiper-slide">
+                        <div class="slide-content">
+                            <div id="blur">
+                                <h3 class="slide-subtitle">Research</h3>
+                                <h2 class="slide-title">Driving Innovation Through Research</h2>
+                                <p class="slide-description">
+                                    Discover breakthroughs in AI, machine learning, and advanced technologies powering the future of research and development.
+                                </p>
+                                <a href="#" class="slide-button"><span>Learn More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- Slider Pagination -->
+                <div class="slider-controls">
+                    <ul class="slider-pagination">
+                        <li class="slider-tab current">Industrial Automation</li>
+                        <li class="slider-tab">Defence Automation</li>
+                        <li class="slider-tab">Home Automation</li>
+                        <li class="slider-tab">Robotics</li>
+                        <li class="slider-tab">Logistics and Warehouse</li>
+                        <li class="slider-tab">Research</li>
+                    </ul>
+                    <div class="slider-indicator"></div>
+                </div>
+        
+                <!-- Slider Navigations (Prev/Next) -->
+                <div class="slider-navigations">
+                    <button id="slide-prev" class="material-symbols-rounded">arrow_left_alt</button>
+                    <button id="slide-next" class="material-symbols-rounded">arrow_right_alt</button>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section container" id="about" style="margin-bottom: 80px;">
+            <div class="about__container grid">
+                <img src="./assets/img/about-img1.png" alt="" class="about__img">
+        
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        Who we really are & <br> why choose us
+                    </h2>
+        
+                    <p class="about__description">
+                        Percepta Innovations LLP excels in Embedded System-based Product Design, offering innovative solutions backed by 20+ years of expertise.
+                    </p>
+                    
+        
+                    <div class="about__details">
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Expertise in Embedded Systems, Visual Communication, and Industrial Automation.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Delivering creative AI-based solutions with state-of-the-art technology.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Pioneers in Medical Products, Visual Inspection Machines, and Customized Solutions.
+                        </p>
+                        <p class="about__details-description">
+                            <i class="ri-checkbox-fill about__details-icon"></i>
+                            Committed to Incremental Innovation to ensure every product is revolutionary.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Testinomials -->
+        <section class="unique-container">
+            <div class="unique-testimonial mySwiper">
+              <div class="unique-testi-content swiper-wrapper">
+                <!-- Slide for Sameer Kanse -->
+                <div class="unique-slide swiper-slide">
+                  <img src="./assets/img/user.png" alt="" class="unique-image" />
+                  <p>
+                    Sameer Kanse, CEO of Percepta Innovations LLP, has 19 years of research experience and has developed over 240 products. 
+                    With a Master's in VLSI Design and expertise in Embedded System Design, AI, Robotics, and Medical Science, 
+                    he drives innovation and pushes technological boundaries.
+                  </p>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(0,0,0,1)">
+                    <path d="M4.58341 17.3211C3.55316 16.2274 3 15 3 13.0103C3 9.51086 5.45651 6.37366 9.03059 4.82318L9.92328 6.20079C6.58804 8.00539 5.93618 10.346 5.67564 11.822C6.21263 11.5443 6.91558 11.4466 7.60471 11.5105C9.40908 11.6778 10.8312 13.159 10.8312 15C10.8312 16.933 9.26416 18.5 7.33116 18.5C6.2581 18.5 5.23196 18.0095 4.58341 17.3211ZM14.5834 17.3211C13.5532 16.2274 13 15 13 13.0103C13 9.51086 15.4565 6.37366 19.0306 4.82318L19.9233 6.20079C16.588 8.00539 15.9362 10.346 15.6756 11.822C16.2126 11.5443 16.9156 11.4466 17.6047 11.5105C19.4091 11.6778 20.8312 13.159 20.8312 15C20.8312 16.933 19.2642 18.5 17.3312 18.5C16.2581 18.5 15.232 18.0095 14.5834 17.3211Z"></path>
+                  </svg>
+                  <div class="unique-details">
+                    <span class="unique-name">Sameer Kanse</span>
+                    <span class="unique-job">CEO</span>
+                  </div>
+                </div>
+          
+                <!-- Slide for Makarand Deshpande -->
+                <div class="unique-slide swiper-slide">
+                  <img src="./assets/img/user.png" alt="" class="unique-image" />
+                  <p>
+                    Makarand Deshpande, a Mechanical Engineer with 30 years of expertise, specializes in concept marketing and product commercialization. 
+                    His leadership complements cutting-edge technologies, driving efficient processes and innovative product solutions.
+                  </p>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(0,0,0,1)">
+                    <path d="M4.58341 17.3211C3.55316 16.2274 3 15 3 13.0103C3 9.51086 5.45651 6.37366 9.03059 4.82318L9.92328 6.20079C6.58804 8.00539 5.93618 10.346 5.67564 11.822C6.21263 11.5443 6.91558 11.4466 7.60471 11.5105C9.40908 11.6778 10.8312 13.159 10.8312 15C10.8312 16.933 9.26416 18.5 7.33116 18.5C6.2581 18.5 5.23196 18.0095 4.58341 17.3211ZM14.5834 17.3211C13.5532 16.2274 13 15 13 13.0103C13 9.51086 15.4565 6.37366 19.0306 4.82318L19.9233 6.20079C16.588 8.00539 15.9362 10.346 15.6756 11.822C16.2126 11.5443 16.9156 11.4466 17.6047 11.5105C19.4091 11.6778 20.8312 13.159 20.8312 15C20.8312 16.933 19.2642 18.5 17.3312 18.5C16.2581 18.5 15.232 18.0095 14.5834 17.3211Z"></path>
+                  </svg>
+                  <div class="unique-details">
+                    <span class="unique-name">Makarand Deshpande</span>
+                    <span class="unique-job">Associate Partner</span>
+                  </div>
+                </div>
+          
+                <!-- Slide with Placeholder Content -->
+                <div class="unique-slide swiper-slide">
+                  <img src="./assets/img/user.png" alt="" class="unique-image" />
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at velit turpis. 
+                    Suspendisse potenti. Praesent vulputate lectus ut eros tempus, id fermentum velit suscipit. 
+                    Cras varius nisi sit amet vehicula bibendum.
+                  </p>
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="rgba(0,0,0,1)">
+                    <path d="M4.58341 17.3211C3.55316 16.2274 3 15 3 13.0103C3 9.51086 5.45651 6.37366 9.03059 4.82318L9.92328 6.20079C6.58804 8.00539 5.93618 10.346 5.67564 11.822C6.21263 11.5443 6.91558 11.4466 7.60471 11.5105C9.40908 11.6778 10.8312 13.159 10.8312 15C10.8312 16.933 9.26416 18.5 7.33116 18.5C6.2581 18.5 5.23196 18.0095 4.58341 17.3211ZM14.5834 17.3211C13.5532 16.2274 13 15 13 13.0103C13 9.51086 15.4565 6.37366 19.0306 4.82318L19.9233 6.20079C16.588 8.00539 15.9362 10.346 15.6756 11.822C16.2126 11.5443 16.9156 11.4466 17.6047 11.5105C19.4091 11.6778 20.8312 13.159 20.8312 15C20.8312 16.933 19.2642 18.5 17.3312 18.5C16.2581 18.5 15.232 18.0095 14.5834 17.3211Z"></path>
+                  </svg>
+                  <div class="unique-details">
+                    <span class="unique-name">Placeholder Name</span>
+                    <span class="unique-job">Placeholder Job</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-next unique-nav-btn"></div>
+              <div class="swiper-button-prev unique-nav-btn"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </section>
+          
+        
+
+
+
+        <!--==================== STEPS ====================-->
+        <!-- <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Steps to start your <br> plants off right
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Choose Plant</h3>
+                            <p class="steps__card-description">
+                                We have several varieties plants you can choose from.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Place an order</h3>
+                            <p class="steps__card-description">
+                                Once your order is set, we move to the next step which is the shipping.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Get plants delivered</h3>
+                            <p class="steps__card-description">
+                                Our delivery process is easy, you receive the plant direct to your door.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+        <!--==================== PRODUCTS ====================-->
+        <!-- <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Check out our <br> products
+                </h2>
+
+                <p class="product__description">
+                    Here are some selected plants from our showroom, all are in excellent 
+                    shape and has a long life span. Buy and enjoy best quality.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product1.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Cacti Plant</h3>
+                        <span class="product__price">$19.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product2.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Cactus Plant</h3>
+                        <span class="product__price">$11.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product3.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Aloe Vera Plant</h3>
+                        <span class="product__price">$7.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product4.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Succulent Plant</h3>
+                        <span class="product__price">$5.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product5.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Succulent Plant</h3>
+                        <span class="product__price">$10.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/product6.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Green Plant</h3>
+                        <span class="product__price">$8.99</span>
+
+                        <button class="button--flex product__button">
+                            <i class="ri-shopping-bag-line"></i>
+                        </button>
+                    </article>
+                </div>
+            </section> -->
+
+        <!--==================== QUESTIONS ====================-->
+        <section class="questions section" id="faqs">
+            <h2 class="section__title-center questions__title container">
+                Some common questions <br> were often asked
+            </h2>
+
+            <div class="questions__container container grid">
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Lorem ipsum dolor sit amet?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Quis nostrud exercitation ullamco laboris?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Duis aute irure dolor in reprehenderit?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="questions__group">
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Ut enim ad minima veniam?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Exercitationem ullam corporis suscipit?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="questions__item">
+                        <header class="questions__header">
+                            <i class="ri-add-line questions__icon"></i>
+                            <h3 class="questions__item-title">
+                                Sed ut perspiciatis unde omnis iste?
+                            </h3>
+                        </header>
+
+                        <div class="questions__content">
+                            <p class="questions__description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae
+                                vestibulum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="questions__content">
+            <p class="questions__description">
+                Plants are easy way to add color energy and transform your
+                space but which planet is for you. Choosing the right plant.
+            </p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        <section class="contact section container" id="contact">
+            <div class="contact__container grid">
+                <div class="contact__box">
+                    <h2 class="section__title">
+                        Reach out to us today <br> via any of the given <br> information
+                    </h2>
+
+                    <div class="contact__data">
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Call us for instant support</h3>
+                            <span class="contact__description">
+                                <i class="ri-phone-line contact__icon"></i>
+                                +999 888 777
+                            </span>
+                        </div>
+
+                        <div class="contact__information">
+                            <h3 class="contact__subtitle">Write us by mail</h3>
+                            <span class="contact__description">
+                                <i class="ri-mail-line contact__icon"></i>
+                                user@email.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="contact__inputs">
+                        <div class="contact__content">
+                            <input type="email" placeholder=" " class="contact__input">
+                            <label for="" class="contact__label">Email</label>
+                        </div>
+
+                        <div class="contact__content">
+                            <input type="text" placeholder=" " class="contact__input">
+                            <label for="" class="contact__label">Subject</label>
+                        </div>
+
+                        <div class="contact__content contact__area">
+                            <textarea name="message" placeholder=" " class="contact__input"></textarea>
+                            <label for="" class="contact__label">Message</label>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex">
+                        Send Message
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <img src="./assets/img/1-removebg-preview.png" width="25px" height="25px" alt="logo"> Percepta
+                </a>
+
+                <h3 class="footer__title">
+                    Subscribe to our newsletter <br> to stay update
+                </h3>
+
+                <div class="footer__subscribe">
+                    <input type="email" placeholder="Enter your email" class="footer__input">
+
+                    <button class="button button--flex footer__button">
+                        Subscribe
+                        <i class="ri-arrow-right-up-line button__icon"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Our Address</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">Lorem ipsum dolor sit amet.</li>
+                    <li class="footer__information">Lorem ipsum dolor sit.</li>
+                    <li class="footer__information">123-456-789</li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Contact Us</h3>
+
+                <ul class="footer__data">
+                    <li class="footer__information">+999 888 777</li>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" class="footer__social-link">
+                            <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://twitter.com/" class="footer__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+
+        <p class="footer__copy">&#169; Percepta. All rigths reserved</p>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
